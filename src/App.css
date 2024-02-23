@@ -1,0 +1,58 @@
+
+.li-item:last-child {
+    border-bottom: none;
+}
+
+.overlay-class-name button{
+    /* color: red;
+    background-color: red
+    ; */
+}
+
+.placeholder::placeholder{
+    color: #ff0000;
+}
+
+
+*{
+    @apply transition-colors duration-200
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #afb2bf;
+  }
+  
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #000814;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #afb2bf;
+    border-radius: 10px;
+    visibility: hidden;
+  }
+  
+  *:active::-webkit-scrollbar-thumb,
+  *:focus::-webkit-scrollbar-thumb,
+  *:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+  }
